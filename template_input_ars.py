@@ -161,6 +161,11 @@ Species(                    #ions
 ####### Diagnostics ######
 globalEvery =1000    
 
+DiagScalar(
+    every = 500
+) 
+
+
 DiagProbe(
     every = globalEvery,
     origin = [0., -Ly, 0],
